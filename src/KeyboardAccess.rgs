@@ -1,0 +1,48 @@
+HKCR
+{
+	KeyboardAccess.KeyboardAccess.1 = s 'KeyboardAccess Class'
+	{
+		CLSID = s '{6499DCCE-720F-11D7-9250-444553540000}'
+	}
+	KeyboardAccess.KeyboardAccess = s 'KeyboardAccess Class'
+	{
+		CLSID = s '{6499DCCE-720F-11D7-9250-444553540000}'
+		CurVer = s 'KeyboardAccess.KeyboardAccess.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {6499DCCE-720F-11D7-9250-444553540000} = s 'KeyboardAccess Class'
+		{
+			ProgID = s 'KeyboardAccess.KeyboardAccess.1'
+			VersionIndependentProgID = s 'KeyboardAccess.KeyboardAccess'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{6499DCC1-720F-11D7-9250-444553540000}'
+		}
+	}
+}
+HKLM
+{
+	SOFTWARE
+	{
+		Microsoft
+		{
+			Windows
+			{
+				CurrentVersion
+				{
+					Explorer
+					{
+						'Browser Helper Objects'
+						{
+							{6499DCCE-720F-11D7-9250-444553540000}
+						}
+					}
+				}
+			}
+		}
+	}
+}

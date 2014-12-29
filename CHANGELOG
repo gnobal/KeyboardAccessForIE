@@ -1,0 +1,48 @@
+0.10
+====
+- Re-release of 0.09. SourceForge.net issues. Don't ask.
+
+
+0.09
+====
+- Added this changelog and removed it from the html docs. Both LICENSE and CHANGELOG are copied into the installation dir.
+
+0.08
+====
+- Improved speed of image map processing. 
+- Added documentation and a "?" button to see it when KeyboardAccess is activated. 
+- Installation now allows users to view the documentation after a successful installation. 
+
+0.07
+====
+- "New Window" checkbox is now disabled when the element cannot be opened in a new window. 
+- Major code redesign.
+- "Number:" edit box now allows numbers only. 
+- Input elements are now treated more correctly - if the number chosen is an input field it focuses the cursor in it to enable the user to add text to it. Other input elements, like checkboxes, radio buttons, etc. are clicked. More robust installation script. 
+
+0.06
+====
+- Name changed to KeyboardAccess for IE.
+
+0.05
+====
+- Image map number positioning is now done last to avoid a bug which is caused because KeyboardAccess changes the HTML page along with the position of elements. 
+- Fixed a bug related to registry access rights, which caused KeyboardAccess not work for limited users. 
+- More robust handling when user starts KeyboardAccess inside Windows Explorer.
+
+0.04
+====
+- Added numbering of input elements. Still doesn't work well for all input elements, but it's a start. 
+- Fixed bug when trying to open an image map item in a new window (for now, the "New Window" flag is ignored when applying it to an image map item).
+
+0.03
+====
+- Added numbering of image maps by showing link numbers on the image.
+
+0.02
+====
+- Allow scrolling the browser window using Alt+UpArrow and ALT+DownArrow when KeyboardAccess's user interface is visible. This is needed because sometimes the addition of the link numbers causes the desired link to be hidden by the user interface or to move down below the browser's visible area.
+
+0.01
+====
+- Original version. Basic functionality of adding numbers to links and letting the user choose the link to go to. New window check-box allows the user to open a link in a new window.

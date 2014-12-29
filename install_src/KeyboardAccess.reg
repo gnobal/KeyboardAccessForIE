@@ -1,0 +1,10 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\Software\Gnobal\KeyboardAccess]
+
+[HKEY_LOCAL_MACHINE\Software\Gnobal\KeyboardAccess\Style]
+"background-color"="black"
+"color"="yellow"
+"font-size"=""
+"font-weight"=""
+
